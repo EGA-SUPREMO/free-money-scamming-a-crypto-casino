@@ -1,0 +1,11 @@
+echo '------------------------------------------------------------------------------------'
+echo '                          '  `date +%R`
+echo '------------------------------------------------------------------------------------'
+echo "`date +%R`">>/home/alejandro/logs.md
+
+maximumSleep=50
+randomSleep=$(($minimumSleep + $RANDOM % $maximumSleep))
+
+echo 'Sleeping '$randomSleep'm. zzzzzzzzzz'>>/home/alejandro/logs.md
+at `date +%R` -f /home/alejandro/freshMonyPLUS.sh>>/home/alejandro/logs.md
+sleep "$randomSleep"m;
