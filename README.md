@@ -5,7 +5,7 @@
 
 * use taper monkey, the bot will click the claim button everytime the page is updated, no thing more, it will run on the background
 
-* copy and paste `main script.js`, as its the most updated, the rest is trash
+* copy and paste `main script.js`, as its the most updated, and `free1.js` has features that main dont, but is outdated, the rest is trash
 
 or from here:
 ```js
